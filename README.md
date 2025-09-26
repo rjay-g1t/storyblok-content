@@ -57,7 +57,7 @@ For big uploads (like 100+ files at once):
 
 - Solution: We save progress and can restart where we left off
 
-## 🏗️ Project Structure Created
+## Project Structure Created
 
 ```
 storyblok-content/
@@ -72,7 +72,7 @@ storyblok-content/
 │   │   │       └── [id]/
 │   │   │           └── route.ts # Job status checking endpoint
 │   │   ├── content/
-│   │   │   └── [id]/
+│   │   │   └── [slug]/
 │   │   │       └── page.tsx     # Dynamic content pages
 │   │   ├── layout.tsx           # Root layout component
 │   │   ├── page.tsx             # Dashboard page component
@@ -96,4 +96,3 @@ storyblok-content/
 ├── package.json                 # Dependencies & scripts
 └── .env.local                   # Environment variables
 ```
-# storyblok-content
