@@ -72,7 +72,7 @@ storyblok-content/
 │   │   │       └── [id]/
 │   │   │           └── route.ts # Job status checking endpoint
 │   │   ├── content/
-│   │   │   └── [id]/
+│   │   │   └── [slug]/
 │   │   │       └── page.tsx     # Dynamic content pages
 │   │   ├── layout.tsx           # Root layout component
 │   │   ├── page.tsx             # Dashboard page component
